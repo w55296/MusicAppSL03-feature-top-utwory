@@ -3,6 +3,7 @@ package com.example.stud.musicapp.topsongs;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -16,6 +17,8 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class TopSongsActivity extends AppCompatActivity {
+
+    RecyclerView rvlLista;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
